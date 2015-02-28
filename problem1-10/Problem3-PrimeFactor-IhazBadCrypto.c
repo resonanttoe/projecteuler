@@ -10,8 +10,6 @@ int multiples()
 		if (factee % multiple == 0) {
 			factee = factee / multiple;
 			}
-		multiple = multiple + 1;
-		}
 	}
 	return factee;
 }
